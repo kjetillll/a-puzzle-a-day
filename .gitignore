@@ -1,0 +1,12 @@
+# Solver output (see README for how these are produced)
+*.lst
+
+# Compiled C
+a-puzzle-a-day
+*.o
+
+# Compiled Java
+*.class
+
+# Editor backups
+*~
