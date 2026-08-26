@@ -57,4 +57,10 @@ rustc -O -o a-puzzle-a-day-rs a-puzzle-a-day.rs
 VERBOSE=1 ./a-puzzle-a-day-rs | grep -A8 'Feb 22'
 ```
 
+Or the Python-program, also translated by Claude, at a mere 1.3x:
+
+```bash
+VERBOSE=1 python3 a-puzzle-a-day.py | grep -A8 'Feb 22'
+```
+
 Google 'constraint solvers' for how to solve such puzzles in a more general way.

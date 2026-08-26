@@ -10,5 +10,8 @@ a-puzzle-a-day-rs
 # Compiled Java
 *.class
 
+# Python
+__pycache__/
+
 # Editor backups
 *~
