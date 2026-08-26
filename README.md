@@ -43,4 +43,11 @@ To run the 10x faster java-program translated by Claude:
 VERBOSE=1 java APuzzleADay.java | grep -A8 'Feb 22'
 ```
 
+Or the 35x faster C-program, also translated by Claude:
+
+```bash
+cc -O2 -o a-puzzle-a-day a-puzzle-a-day.c
+VERBOSE=1 ./a-puzzle-a-day | grep -A8 'Feb 22'
+```
+
 Google 'constraint solvers' for how to solve such puzzles in a more general way.
