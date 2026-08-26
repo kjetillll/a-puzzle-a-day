@@ -1,9 +1,11 @@
 # Solver output (see README for how these are produced)
 *.lst
 
-# Compiled C
+# Compiled C and Rust
 a-puzzle-a-day
+a-puzzle-a-day-rs
 *.o
+*.pdb
 
 # Compiled Java
 *.class

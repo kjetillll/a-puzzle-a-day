@@ -50,4 +50,11 @@ cc -O2 -o a-puzzle-a-day a-puzzle-a-day.c
 VERBOSE=1 ./a-puzzle-a-day | grep -A8 'Feb 22'
 ```
 
+Or the 28x faster Rust-program, also translated by Claude:
+
+```bash
+rustc -O -o a-puzzle-a-day-rs a-puzzle-a-day.rs
+VERBOSE=1 ./a-puzzle-a-day-rs | grep -A8 'Feb 22'
+```
+
 Google 'constraint solvers' for how to solve such puzzles in a more general way.
